@@ -1,0 +1,35 @@
+/* AssessmentComponent.css */
+.assessment-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .criteria {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .criteria-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .criteria-item label {
+    font-weight: bold;
+  }
+  
+  .criteria-item input[type="range"] {
+    width: 200px;
+    margin-left: 10px;
+  }
+  
+  .criteria-item span {
+    font-weight: bold;
+  }
+  
